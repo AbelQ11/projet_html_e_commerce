@@ -1,0 +1,82 @@
+@import url("variables.css");
+#produits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#produits .products {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#produits .banner img {
+    width: 100%;
+    height: 40rem;
+}
+
+#produits .products img{
+    border-radius: 10px;
+    width: 100%;
+    height: 30rem;
+}
+
+@media (max-width: 768px){
+    footer{
+        position: absolute;
+        width: 100%;
+        bottom: -80rem;
+    }
+    #produits .products{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #produits .products img {
+        width: 100%;
+        height: 28rem;
+    }
+    #produits .banner img{
+        width: 100%;
+        height: 20rem;
+    }
+    #produits .master_grade .banner img{
+        width: 100%;
+        height: 15rem;
+    }
+    #produits .model_grade .banner img{
+        width: 100%;
+        height: 25rem;
+    }
+}
+
+@media (min-width:769px) and (max-width: 1024px){
+    footer{
+        position: absolute;
+        width: 100%;
+        bottom: -70rem;
+    }
+    #produits .products{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    #produits .products img {
+        width: 100%;
+        height: 28rem;
+    }
+    #produits .banner img{
+        width: 100%;
+        height: 25rem;
+    }
+    #produits .model_grade .banner img{
+        width: 100%;
+        height: 30rem;
+    }
+}

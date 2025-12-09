@@ -1,0 +1,18 @@
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+.présentation, .Contact{
+    position: relative;
+    left: 1rem;
+    width: 90%;
+}
+
+@media (max-width: 1024px) {
+    footer{
+        position: absolute;
+        bottom: -20rem;
+    }
+}

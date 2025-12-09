@@ -1,0 +1,42 @@
+@import "variables.css";
+footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-top: var(--border);
+    background-color: #363636;
+    color: var(--color-text-footer);
+    font-size: 1.1rem;
+}
+
+footer a{
+    color: var(--color-text-footer);
+}
+
+#bottombar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+
+#bottombar i{
+    font-size: 1.5rem;
+}
+
+.réseaux i{
+    color: var(--color-text-footer);
+}
+
+@media (max-width: 1024px){
+    #bottombar{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+    }
+}

@@ -1,0 +1,19 @@
+footer{
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+#contact{
+    position: relative;
+    left: 5rem;
+    width: 90%;
+}
+
+@media (max-width: 1024px) {
+    #contact{
+        position: relative;
+        left: 0;
+        width: 90%;
+    }
+}

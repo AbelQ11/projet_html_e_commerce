@@ -1,0 +1,55 @@
+@import "variables.css";
+header, footer{
+    width: 100%;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #ebebeb;
+}
+
+.light {
+    background-color: #ebebeb;
+    color: var(--color-text-main)
+}
+
+.dark {
+    background-color: black;
+    color: #ebebeb;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 800;
+    font-family: Saira, "Lucida Sans", sans-serif;
+    color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: Saira, "Lucida Sans", sans-serif;
+}
+
+h1{
+    font-size: 2rem;
+}
+
+h2{
+    font-weight: 600;
+}
+
+p, ul, ol, dl, dt, dd, article{
+    font-family: Share Tech, "Lucida Sans", sans-serif;
+    color: var(--color-text-main);
+}
+
+blockquote {
+    font-family: Share Tech, "Lucida Sans", sans-serif;
+    color: var(--color-text-blockquote);
+}
+
+article{
+    text-decoration: line-through;
+}

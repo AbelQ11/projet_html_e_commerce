@@ -1,0 +1,126 @@
+@import url("variables.css");
+
+#produits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#produits .tools, #produits .super_deformed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    margin: 1rem 10rem;
+    padding: 5rem 0;
+    justify-content: space-around;
+}
+
+#produits .tools_products{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#produits .products img, .tools_products img{
+    width: 100%;
+    height: 28rem;
+}
+
+#produits .banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#produits .banner img {
+    width: 100%;
+    height: 40rem;
+}
+
+#produits .products {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#produits .model_grade .products{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem;
+}
+
+#produits .tools_products .leds img{
+    width: 100%;
+    height: 38rem;
+}
+
+@media (max-width: 768px){
+    #produits .products, #produits .tools_products {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #produits .banner img{
+        width: 100%;
+        height: 20rem;
+    }
+    #produits .master_grade .banner img{
+        width: 100%;
+        height: 15rem;
+    }
+    #produits .tools_products .leds img{
+        width: 100%;
+        height: 38rem;
+    }
+    #produits .model_grade .banner img{
+         width: 100%;
+         height: 25rem;
+    }
+    #produits .model_grade .products{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (min-width:769px) and (max-width: 1024px){
+    #produits .products, #produits .tools_products {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #produits .banner img{
+        width: 100%;
+        height: 20rem;
+    }
+    #produits .tools_products .leds img{
+        width: 100%;
+        height: 38rem;
+    }
+    #produits .model_grade .banner img{
+        width: 100%;
+        height: 30rem;
+    }
+    #produits .model_grade .products{
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}

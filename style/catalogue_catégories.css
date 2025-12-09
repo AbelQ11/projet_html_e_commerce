@@ -1,0 +1,22 @@
+#Catégories{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#Catégories img {
+    width: 100%;
+    height: 40rem;
+}
+
+@media (max-width: 1024px){
+    #Catégories img{
+        width: 100%;
+        height: 20rem;
+    }
+    #Catégories .master_grade img{
+        width: 100%;
+        height: 15rem;
+    }
+}

@@ -1,0 +1,8 @@
+:root{
+    --color-text-header: #ECECEC;
+    --color-text-footer: #CBCBCB;
+    --color-text-main: #2F2F2F;
+    --color-text-blockquote: #131313;
+    --border: 5px solid #8F3838;
+    --shadow-box: 10px 5px 5px lightgray;
+}

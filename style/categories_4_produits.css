@@ -1,0 +1,70 @@
+@import url("variables.css");
+
+#produits {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#produits .tools, #produits .super_deformed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    width: 100%;
+    flex-wrap: nowrap;
+    margin: 1rem 10rem;
+    overflow: auto;
+    padding: 5rem 0;
+    justify-content: space-around;
+}
+
+#produits .tools_products{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+#produits .banner img {
+    width: 100%;
+    height: 40rem;
+}
+
+#produits .tools_products img{
+    width: 100%;
+    height: 28rem;
+}
+
+@media (min-width:769px) and (max-width: 1024px){
+    footer{
+        position: absolute;
+        width: 100%;
+        bottom: -170rem;
+    }
+    #produits .tools_products{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    #produits .banner img{
+        width: 100%;
+        height: 30rem;
+    }
+    #produits .tools_products img{
+        width: 100%;
+        height: 28rem;
+    }
+    #produits .tools_products .leds img{
+        width: 100%;
+        height: 38rem;
+    }
+    #produits .super_deformed .banner img{
+         width: 100%;
+         height: 25rem;
+    }
+}
